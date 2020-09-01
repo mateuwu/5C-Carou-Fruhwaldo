@@ -22,12 +22,12 @@ namespace ConsoleApp55
             Console.ReadLine();
             if (prom >= 7)
             {
-                Console.WriteLine("El alumno está aprobado");
+                Console.WriteLine("El alumno aprobo");
                 Console.ReadLine();
             }
             else
             {
-                    Console.WriteLine("El alumno irá a diciembre");
+                    Console.WriteLine("El alumno se llevo la materia a diciembre");
                     Console.ReadLine();
                 }
                 
