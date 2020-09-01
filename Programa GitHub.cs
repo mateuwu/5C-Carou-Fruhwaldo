@@ -27,8 +27,10 @@ namespace ConsoleApp55
             }
             else
             {
-                    Console.WriteLine("El alumno se llevo la materia a diciembre");
-                    Console.ReadLine();
+               else if (promedio >= 4 && promedio < 7)
+                {      
+                Console.WriteLine("El alumno se llevo la materia a diciembre");
+                Console.ReadKey();
                 }
                 
 
