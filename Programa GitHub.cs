@@ -12,11 +12,11 @@ namespace ConsoleApp55
         {
             int n1, n2, n3, prom;
             Console.WriteLine("Numero 1:");
-            num1 = int.Parse(Console.ReadLine());
+            n1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Numero 2:");
-            num2 = int.Parse(Console.ReadLine());
+            n2 = int.Parse(Console.ReadLine());
             Console.WriteLine("Numero 3:");
-            num3 = int.Parse(Console.ReadLine());
+            n3 = int.Parse(Console.ReadLine());
             prom = (n1 + n2 + n3) / 3;
             Console.WriteLine("Promedio: {0}", prom);
             Console.ReadLine();
