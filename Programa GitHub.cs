@@ -10,14 +10,14 @@ namespace ConsoleApp55
     {
         static void Main(string[] args)
         {
-            int num1, num2, num3, prom;
+            int n1, n2, n3, prom;
             Console.WriteLine("Numero 1:");
             num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Numero 2:");
             num2 = int.Parse(Console.ReadLine());
             Console.WriteLine("Numero 3:");
             num3 = int.Parse(Console.ReadLine());
-            prom = (num1 + num2 + num3) / 3;
+            prom = (n1 + n2 + n3) / 3;
             Console.WriteLine("Promedio: {0}", prom);
             Console.ReadLine();
             if (prom >= 7)
